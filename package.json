@@ -1,0 +1,23 @@
+{
+  "name": "prerender-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/prerender/prerender.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prerender/prerender/issues"
+  },
+  "homepage": "https://github.com/prerender/prerender#readme",
+  "dependencies": {
+    "aws-sdk": "2.307.0",
+    "prerender": "^5.6.0"
+  }
+}
