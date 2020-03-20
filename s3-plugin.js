@@ -10,11 +10,11 @@ module.exports = {
     }
 
     var options = {
-      key: req.prerender.url
+      Key: req.prerender.url
     };
 
     if (process.env.S3_PREFIX_KEY) {
-      options.key = process.env.S3_PREFIX_KEY + '/' + options.key;
+      options.Key = process.env.S3_PREFIX_KEY + '/' + options.Key;
     }
 
     if (process.env.S3_CACHE_TTL) {
@@ -55,3 +55,6 @@ module.exports = {
     });
   }
 };
+
+// 0Tq5nLhwYvHrjHTHH2WI
+// https://bookbottles-prerender.herokuapp.com/
