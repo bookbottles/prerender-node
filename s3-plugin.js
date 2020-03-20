@@ -22,6 +22,7 @@ module.exports = {
     }
 
     s3.getObject(options, function (err, result) {
+      console.log(err, result);
 
       if (!err && result) {
         return res.send(200, result.Body);
@@ -55,6 +56,3 @@ module.exports = {
     });
   }
 };
-
-// 0Tq5nLhwYvHrjHTHH2WI
-// https://bookbottles-prerender.herokuapp.com/
